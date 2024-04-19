@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <h1> home page </h1> 
+    <input type="text" name="inn" size="18"  />
+    <p name="para" id="id1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, natus beatae voluptatum impedit maiores totam veritatis modi incidunt aliquam, aut quos deserunt. Facere voluptatibus velit quia temporibus assumenda sunt qui?</p>
+    <p id="p2"></p>
+
+    <button onclick="fun()">click</button>
+    <script>
+        window.onload = function(){
+           var inn = document.inn;
+           let id1 = document.getElementById('id1');
+           id1.focus();
+        }
+        let p2 = document.getElementById('p2');
+        function fun(){
+            p2.innerHTML = "This is on click funtion"
+        }
+    </script>
+</body>
+</html>

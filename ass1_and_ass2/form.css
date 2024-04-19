@@ -1,0 +1,12 @@
+#txtarea{
+    height: 50px;
+    margin-top: 10px;
+}
+body{
+    
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    float :left;
+    background-color: aquamarine;
+}

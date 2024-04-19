@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>login page </h1>
+    <form name="form1"  >
+        <input type="text" name="uname" value="" placeholder="userid"/><br>
+        <input type="text" name="pass" value="" placeholder="passward"/><br>
+        <input type="button" value="login" name="submit" onclick="fun()"/><br>
+    </form>
+    
+    <button onclick="window.location.replace('./Registration.html')">go to registration</button>
+
+    <script>
+        
+
+        function fun(){
+            let uname = document.form1.uname;  //  in this way we can take reference also and then we can use .focus() or .value
+            let pass  = document.form1.pass;
+            if(uname.value == "vaibhav" && pass.value == "12345"){
+                alert('login successful');
+                window.location.replace('./home.html');
+                // window.location.href = './home.html';
+                return true;
+            }
+            else{
+                alert('invalid');
+                return true;
+            }
+
+            
+        }
+    </script>
+</body>
+</html>

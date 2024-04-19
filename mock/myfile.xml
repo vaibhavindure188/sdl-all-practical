@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<bookstore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file.xsd">
+    <book id="1">
+        <title>Harry Potter</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <price>100.99</price>
+        <publish_date>1997-06-26</publish_date>
+        <description>The first book in the Harry Potter series.</description>
+    </book>
+    <book id="2">
+        <title>The Great Leader</title>
+        <author>F. Scott </author>
+        <genre>Novel</genre>
+        <price>80.99</price>
+        <publish_date>1925-04-10</publish_date>
+        <description>A classic American novel about the Jazz Age.</description>
+        <new> this is wrong tag </new>
+    </book>
+
+    <book id="3">
+        <title>MyBook</title>
+        <author>Vaibhav Indure</author>
+        <genre>Fantasy</genre>
+        <price>200.99</price>
+        <publish_date>2023-06-26</publish_date>
+        <description>The first book in the Harry Potter series.</description>
+    </book>
+    <book id="4">
+        <title>The Great Leader</title>
+        <author>F. Scott </author>
+        <genre>Novel</genre>
+        <price>80.99</price>
+        <publish_date>1925-04-10</publish_date>
+        <description>A classic American novel about the Jazz Age.</description>
+        <new> this is wrong tag </new>
+    </book>
+</bookstore>
